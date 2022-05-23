@@ -20,8 +20,8 @@ namespace Enums
 
             Console.WriteLine(method.ToString());
 
-            var methodName = "Express"; 
-            var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod),methodName)
+            var methodName = "Express";
+            var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
         }
     }
 }
